@@ -1,0 +1,7160 @@
+{
+  "schema_version": 2,
+  "seed": 0,
+  "rules_profile": "user-requested-v1.1-revision-2",
+  "winner": 1,
+  "reason": "LIFE_DAMAGE",
+  "truncated": false,
+  "total_turns": 32,
+  "decks": [
+    [
+      "BASE_A",
+      "BASE_A",
+      "BASE_A",
+      "BASE_A",
+      "BASE_B",
+      "BASE_B",
+      "BASE_B",
+      "BASE_B",
+      "BASE_C",
+      "BASE_C",
+      "BASE_C",
+      "BASE_C",
+      "SNIPE_DRAW",
+      "SNIPE_DRAW",
+      "SNIPE_DRAW",
+      "SNIPE_DRAW",
+      "AURA",
+      "AURA",
+      "AURA",
+      "AURA",
+      "SHIELD",
+      "SHIELD",
+      "SHIELD",
+      "SHIELD",
+      "DETACH",
+      "DETACH",
+      "DETACH",
+      "DETACH",
+      "DISCOUNT",
+      "DISCOUNT",
+      "DISCOUNT",
+      "DISCOUNT",
+      "GROW",
+      "GROW",
+      "GROW",
+      "GROW",
+      "GUARD",
+      "GUARD",
+      "GUARD",
+      "GUARD",
+      "TAX_TWO",
+      "TAX_TWO",
+      "TAX_TWO",
+      "TAX_TWO",
+      "TAX_AP",
+      "TAX_AP",
+      "TAX_AP",
+      "TAX_AP",
+      "EVENT",
+      "EVENT"
+    ],
+    [
+      "EVENT",
+      "EVENT",
+      "TAX_AP",
+      "TAX_AP",
+      "TAX_AP",
+      "TAX_AP",
+      "TAX_TWO",
+      "TAX_TWO",
+      "TAX_TWO",
+      "TAX_TWO",
+      "GUARD",
+      "GUARD",
+      "GUARD",
+      "GUARD",
+      "GROW",
+      "GROW",
+      "GROW",
+      "GROW",
+      "DISCOUNT",
+      "DISCOUNT",
+      "DISCOUNT",
+      "DISCOUNT",
+      "DETACH",
+      "DETACH",
+      "DETACH",
+      "DETACH",
+      "SHIELD",
+      "SHIELD",
+      "SHIELD",
+      "SHIELD",
+      "AURA",
+      "AURA",
+      "AURA",
+      "AURA",
+      "SNIPE_DRAW",
+      "SNIPE_DRAW",
+      "SNIPE_DRAW",
+      "SNIPE_DRAW",
+      "BASE_C",
+      "BASE_C",
+      "BASE_C",
+      "BASE_C",
+      "BASE_B",
+      "BASE_B",
+      "BASE_B",
+      "BASE_B",
+      "BASE_A",
+      "BASE_A",
+      "BASE_A",
+      "BASE_A"
+    ]
+  ],
+  "actions": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    4,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    0,
+    4,
+    5,
+    4,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    2,
+    4,
+    1,
+    1,
+    0,
+    7,
+    6,
+    5,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    2,
+    7,
+    3,
+    0,
+    1,
+    3,
+    0,
+    2,
+    1,
+    3,
+    0,
+    0,
+    4,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    3,
+    0,
+    0,
+    0,
+    0,
+    3,
+    1,
+    0,
+    0,
+    22,
+    14,
+    0,
+    13,
+    0,
+    2,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    1,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    5,
+    1,
+    1,
+    0,
+    2,
+    4,
+    1,
+    0,
+    2,
+    0,
+    0,
+    2,
+    3,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    9,
+    5,
+    3,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    3,
+    2,
+    0,
+    0,
+    1,
+    1,
+    0,
+    3,
+    0,
+    0,
+    1,
+    3,
+    0,
+    4,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    5,
+    6,
+    0,
+    0,
+    5,
+    1,
+    1,
+    0,
+    9,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    6,
+    1,
+    6,
+    1,
+    1,
+    1,
+    1,
+    2,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    6,
+    13,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    7,
+    3,
+    1,
+    0,
+    1,
+    1,
+    2,
+    0,
+    0,
+    3,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    9,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    5,
+    6,
+    2,
+    1,
+    0,
+    0,
+    3,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    1,
+    3,
+    0,
+    9,
+    7,
+    4,
+    0,
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "events": [
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 18,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 23,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 36,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 4,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 2,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 3,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 34,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 79,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 51,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 89,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 55,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 66,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 78,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 77,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MULLIGAN",
+      "action": 0,
+      "kind": "KEEP",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 0,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MULLIGAN",
+      "action": 1,
+      "kind": "MULLIGAN",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 63,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 70,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 57,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 84,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 88,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 91,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 60,
+      "zone": "HAND"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 79,
+      "zone": "DECK"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 51,
+      "zone": "DECK"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 89,
+      "zone": "DECK"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 55,
+      "zone": "DECK"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 66,
+      "zone": "DECK"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 78,
+      "zone": "DECK"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 77,
+      "zone": "DECK"
+    },
+    {
+      "turn": 0,
+      "event": "MULLIGAN_SHUFFLE",
+      "player": 1
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 24,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 20,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 26,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 1,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 11,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 47,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 22,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 85,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 98,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 62,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 92,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 73,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 75,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 0,
+      "event": "ZONE",
+      "uid": 71,
+      "zone": "LIFE"
+    },
+    {
+      "turn": 1,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 1
+    },
+    {
+      "turn": 1,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 1,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 1,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 1,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 2,
+      "event": "ZONE",
+      "uid": 76,
+      "zone": "HAND"
+    },
+    {
+      "turn": 2,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 2
+    },
+    {
+      "turn": 2,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 2,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 2,
+      "event": "ZONE",
+      "uid": 65,
+      "zone": "HAND"
+    },
+    {
+      "turn": 2,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 70,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 2,
+      "event": "ZONE",
+      "uid": 70,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 2,
+      "event": "ON_PLAY",
+      "uid": 70
+    },
+    {
+      "turn": 2,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 2,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 2,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 70
+    },
+    {
+      "turn": 2,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 3,
+      "event": "ZONE",
+      "uid": 10,
+      "zone": "HAND"
+    },
+    {
+      "turn": 3,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 2
+    },
+    {
+      "turn": 3,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 3,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 4,
+      "kind": "PLAY",
+      "card": 2,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 3,
+      "event": "ZONE",
+      "uid": 2,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 3,
+      "event": "ON_PLAY",
+      "uid": 2
+    },
+    {
+      "turn": 3,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 9,
+      "kind": "PLAY",
+      "card": 3,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 3,
+      "event": "ZONE",
+      "uid": 3,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 3,
+      "event": "ON_PLAY",
+      "uid": 3
+    },
+    {
+      "turn": 3,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 3,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 3,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 3
+    },
+    {
+      "turn": 3,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 2
+    },
+    {
+      "turn": 3,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 4,
+      "event": "ZONE",
+      "uid": 82,
+      "zone": "HAND"
+    },
+    {
+      "turn": 4,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 4,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 4,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 4,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 4,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 70
+    },
+    {
+      "turn": 4,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 6,
+      "kind": "REMOVE",
+      "card": 76,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 4,
+      "event": "ZONE",
+      "uid": 76,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 4,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 5,
+      "event": "ZONE",
+      "uid": 45,
+      "zone": "HAND"
+    },
+    {
+      "turn": 5,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 5,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 5,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 4,
+      "kind": "PLAY",
+      "card": 36,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 5,
+      "event": "ZONE",
+      "uid": 36,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 5,
+      "event": "ON_PLAY",
+      "uid": 36
+    },
+    {
+      "turn": 5,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 5,
+      "kind": "PLAY",
+      "card": 23,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 5,
+      "event": "ZONE",
+      "uid": 23,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 5,
+      "event": "ON_PLAY",
+      "uid": 23
+    },
+    {
+      "turn": 5,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 4,
+      "kind": "PLAY",
+      "card": 4,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 5,
+      "event": "ZONE",
+      "uid": 4,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 5,
+      "event": "ON_PLAY",
+      "uid": 4
+    },
+    {
+      "turn": 5,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 5,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 3,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 5,
+      "event": "ON_ATTACK",
+      "uid": 3
+    },
+    {
+      "turn": 5,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 70,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 5,
+      "event": "ON_BLOCK",
+      "uid": 70
+    },
+    {
+      "turn": 5,
+      "event": "BATTLE",
+      "attacker": 3,
+      "defender": 70,
+      "blocked": true
+    },
+    {
+      "turn": 5,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 3
+    },
+    {
+      "turn": 5,
+      "event": "ON_BATTLE_WIN",
+      "uid": 70
+    },
+    {
+      "turn": 5,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 5,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 3
+    },
+    {
+      "turn": 5,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 23
+    },
+    {
+      "turn": 5,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 2
+    },
+    {
+      "turn": 5,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 36
+    },
+    {
+      "turn": 5,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 4
+    },
+    {
+      "turn": 5,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 6,
+      "event": "ZONE",
+      "uid": 97,
+      "zone": "HAND"
+    },
+    {
+      "turn": 6,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 6,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 6,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 6,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 70,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 6,
+      "event": "ON_ATTACK",
+      "uid": 70
+    },
+    {
+      "turn": 6,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 3,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 6,
+      "event": "ON_BLOCK",
+      "uid": 3
+    },
+    {
+      "turn": 6,
+      "event": "BATTLE",
+      "attacker": 70,
+      "defender": 3,
+      "blocked": true
+    },
+    {
+      "turn": 6,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 3
+    },
+    {
+      "turn": 6,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 3
+    },
+    {
+      "turn": 6,
+      "event": "ZONE",
+      "uid": 3,
+      "zone": "DROP"
+    },
+    {
+      "turn": 6,
+      "event": "ON_RETIRE",
+      "uid": 3
+    },
+    {
+      "turn": 6,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 3
+    },
+    {
+      "turn": 6,
+      "event": "ON_BATTLE_WIN",
+      "uid": 70
+    },
+    {
+      "turn": 6,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 6,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 70
+    },
+    {
+      "turn": 6,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 2,
+      "kind": "REMOVE",
+      "card": 84,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 6,
+      "event": "ZONE",
+      "uid": 84,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 6,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 7,
+      "event": "ZONE",
+      "uid": 30,
+      "zone": "HAND"
+    },
+    {
+      "turn": 7,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 4,
+      "kind": "SWAP",
+      "card": 4,
+      "target": 23,
+      "zone": ""
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 2,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 7,
+      "event": "ZONE",
+      "uid": 2,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 36,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 7,
+      "event": "ZONE",
+      "uid": 36,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 7,
+      "kind": "PLAY",
+      "card": 45,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 7,
+      "event": "ZONE",
+      "uid": 45,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 7,
+      "event": "ON_PLAY",
+      "uid": 45
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 6,
+      "kind": "PLAY",
+      "card": 30,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 7,
+      "event": "ZONE",
+      "uid": 30,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 7,
+      "event": "ON_PLAY",
+      "uid": 30
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 5,
+      "kind": "PLAY",
+      "card": 34,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 0,
+      "kind": "REMOVE",
+      "card": 4,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 7,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 4
+    },
+    {
+      "turn": 7,
+      "event": "ZONE",
+      "uid": 4,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 7,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 4
+    },
+    {
+      "turn": 7,
+      "event": "ZONE",
+      "uid": 34,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 7,
+      "event": "ON_PLAY",
+      "uid": 34
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 2,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 7,
+      "event": "ON_ATTACK",
+      "uid": 2
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 70,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 7,
+      "event": "ON_BLOCK",
+      "uid": 70
+    },
+    {
+      "turn": 7,
+      "event": "BATTLE",
+      "attacker": 2,
+      "defender": 70,
+      "blocked": true
+    },
+    {
+      "turn": 7,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 2
+    },
+    {
+      "turn": 7,
+      "event": "ON_BATTLE_WIN",
+      "uid": 70
+    },
+    {
+      "turn": 7,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 7,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 2
+    },
+    {
+      "turn": 7,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 36
+    },
+    {
+      "turn": 7,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 45
+    },
+    {
+      "turn": 7,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 34
+    },
+    {
+      "turn": 7,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 23
+    },
+    {
+      "turn": 7,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 30
+    },
+    {
+      "turn": 7,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 8,
+      "event": "ZONE",
+      "uid": 53,
+      "zone": "HAND"
+    },
+    {
+      "turn": 8,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 8,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 8,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 97,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 8,
+      "event": "ZONE",
+      "uid": 97,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 8,
+      "event": "ON_PLAY",
+      "uid": 97
+    },
+    {
+      "turn": 8,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 7,
+      "kind": "PLAY",
+      "card": 91,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 8,
+      "event": "ZONE",
+      "uid": 91,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 8,
+      "event": "ON_PLAY",
+      "uid": 91
+    },
+    {
+      "turn": 8,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 3,
+      "kind": "PLAY",
+      "card": 63,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 8,
+      "event": "ZONE",
+      "uid": 63,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 8,
+      "event": "ON_PLAY",
+      "uid": 63
+    },
+    {
+      "turn": 8,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 8,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 70,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 8,
+      "event": "ON_ATTACK",
+      "uid": 70
+    },
+    {
+      "turn": 8,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 3,
+      "kind": "BLOCK",
+      "card": 45,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 8,
+      "event": "ON_BLOCK",
+      "uid": 45
+    },
+    {
+      "turn": 8,
+      "event": "BATTLE",
+      "attacker": 70,
+      "defender": 45,
+      "blocked": true
+    },
+    {
+      "turn": 8,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 45
+    },
+    {
+      "turn": 8,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 45
+    },
+    {
+      "turn": 8,
+      "event": "ZONE",
+      "uid": 45,
+      "zone": "DROP"
+    },
+    {
+      "turn": 8,
+      "event": "ON_RETIRE",
+      "uid": 45
+    },
+    {
+      "turn": 8,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 45
+    },
+    {
+      "turn": 8,
+      "event": "ON_BATTLE_WIN",
+      "uid": 70
+    },
+    {
+      "turn": 8,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 8,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 70
+    },
+    {
+      "turn": 8,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 91
+    },
+    {
+      "turn": 8,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 63
+    },
+    {
+      "turn": 8,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 8,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 9,
+      "event": "ZONE",
+      "uid": 27,
+      "zone": "HAND"
+    },
+    {
+      "turn": 9,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 2,
+      "kind": "MOVE",
+      "card": 30,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 9,
+      "event": "ZONE",
+      "uid": 30,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 23,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 3,
+      "kind": "REMOVE",
+      "card": 30,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 9,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 30
+    },
+    {
+      "turn": 9,
+      "event": "ZONE",
+      "uid": 30,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 9,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 30
+    },
+    {
+      "turn": 9,
+      "event": "ZONE",
+      "uid": 23,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 4,
+      "kind": "ATTACK",
+      "card": 23,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 9,
+      "event": "ON_ATTACK",
+      "uid": 23
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 70,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 9,
+      "event": "ON_BLOCK",
+      "uid": 70
+    },
+    {
+      "turn": 9,
+      "event": "BATTLE",
+      "attacker": 23,
+      "defender": 70,
+      "blocked": true
+    },
+    {
+      "turn": 9,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 70
+    },
+    {
+      "turn": 9,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 70
+    },
+    {
+      "turn": 9,
+      "event": "ZONE",
+      "uid": 70,
+      "zone": "DROP"
+    },
+    {
+      "turn": 9,
+      "event": "ON_RETIRE",
+      "uid": 70
+    },
+    {
+      "turn": 9,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 70
+    },
+    {
+      "turn": 9,
+      "event": "ON_BATTLE_WIN",
+      "uid": 23
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 2,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 9,
+      "event": "ON_ATTACK",
+      "uid": 2
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 91,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 9,
+      "event": "ON_BLOCK",
+      "uid": 91
+    },
+    {
+      "turn": 9,
+      "event": "BATTLE",
+      "attacker": 2,
+      "defender": 91,
+      "blocked": true
+    },
+    {
+      "turn": 9,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 2
+    },
+    {
+      "turn": 9,
+      "event": "ON_BATTLE_WIN",
+      "uid": 91
+    },
+    {
+      "turn": 9,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 9,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 2
+    },
+    {
+      "turn": 9,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 36
+    },
+    {
+      "turn": 9,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 34
+    },
+    {
+      "turn": 9,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 23
+    },
+    {
+      "turn": 9,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 10,
+      "event": "ZONE",
+      "uid": 59,
+      "zone": "HAND"
+    },
+    {
+      "turn": 10,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 10,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 97,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 10,
+      "event": "ZONE",
+      "uid": 97,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 10,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 10,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 10,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 3,
+      "kind": "ATTACK",
+      "card": 97,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 10,
+      "event": "ON_ATTACK",
+      "uid": 97
+    },
+    {
+      "turn": 10,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 10,
+      "event": "ON_UNBLOCKED",
+      "uid": 97
+    },
+    {
+      "turn": 10,
+      "event": "LIFE_REVEAL",
+      "player": 0,
+      "cards": [
+        24
+      ]
+    },
+    {
+      "turn": 10,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 24,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 10,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "RAID",
+      "action": 0,
+      "kind": "HAND",
+      "card": 24,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 10,
+      "event": "ZONE",
+      "uid": 24,
+      "zone": "HAND"
+    },
+    {
+      "turn": 10,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 24,
+      "trigger": "RAID"
+    },
+    {
+      "turn": 10,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 10,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 91
+    },
+    {
+      "turn": 10,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 63
+    },
+    {
+      "turn": 10,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 10,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 11,
+      "event": "ZONE",
+      "uid": 6,
+      "zone": "HAND"
+    },
+    {
+      "turn": 11,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 11,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 11,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 6,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 11,
+      "event": "ZONE",
+      "uid": 6,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 11,
+      "event": "ON_PLAY",
+      "uid": 6
+    },
+    {
+      "turn": 11,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 11,
+      "event": "ZONE",
+      "uid": 21,
+      "zone": "HAND"
+    },
+    {
+      "turn": 11,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 3,
+      "kind": "PLAY",
+      "card": 10,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 11,
+      "event": "ZONE",
+      "uid": 10,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 11,
+      "event": "ON_PLAY",
+      "uid": 10
+    },
+    {
+      "turn": 11,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 11,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 11,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 2
+    },
+    {
+      "turn": 11,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 36
+    },
+    {
+      "turn": 11,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 34
+    },
+    {
+      "turn": 11,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 23
+    },
+    {
+      "turn": 11,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 6
+    },
+    {
+      "turn": 11,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 10
+    },
+    {
+      "turn": 11,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 12,
+      "event": "ZONE",
+      "uid": 99,
+      "zone": "HAND"
+    },
+    {
+      "turn": 12,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 12,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 12,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 12,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 3,
+      "kind": "ATTACK",
+      "card": 97,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 12,
+      "event": "ON_ATTACK",
+      "uid": 97
+    },
+    {
+      "turn": 12,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 2,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 12,
+      "event": "ON_BLOCK",
+      "uid": 2
+    },
+    {
+      "turn": 12,
+      "event": "BATTLE",
+      "attacker": 97,
+      "defender": 2,
+      "blocked": true
+    },
+    {
+      "turn": 12,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 2
+    },
+    {
+      "turn": 12,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 2
+    },
+    {
+      "turn": 12,
+      "event": "ZONE",
+      "uid": 2,
+      "zone": "DROP"
+    },
+    {
+      "turn": 12,
+      "event": "ON_RETIRE",
+      "uid": 2
+    },
+    {
+      "turn": 12,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 2
+    },
+    {
+      "turn": 12,
+      "event": "ON_BATTLE_WIN",
+      "uid": 97
+    },
+    {
+      "turn": 12,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 12,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 91
+    },
+    {
+      "turn": 12,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 63
+    },
+    {
+      "turn": 12,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 12,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 13,
+      "event": "ZONE",
+      "uid": 38,
+      "zone": "HAND"
+    },
+    {
+      "turn": 13,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 22,
+      "kind": "PLAY",
+      "card": 38,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 13,
+      "event": "ZONE",
+      "uid": 38,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 13,
+      "event": "ON_PLAY",
+      "uid": 38
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 14,
+      "kind": "RAID",
+      "card": 24,
+      "target": 6,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "ZONE",
+      "uid": 24,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 13,
+      "event": "RAID_OVERLAY",
+      "uid": 24,
+      "source": 6
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "RAID_MOVE",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "ON_PLAY",
+      "uid": 24
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 13,
+      "kind": "RAID",
+      "card": 21,
+      "target": 23,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "ZONE",
+      "uid": 21,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 13,
+      "event": "RAID_OVERLAY",
+      "uid": 21,
+      "source": 23
+    },
+    {
+      "turn": 13,
+      "event": "ON_PLAY",
+      "uid": 21
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 34,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "ON_ATTACK",
+      "uid": 34
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 91,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "ON_BLOCK",
+      "uid": 91
+    },
+    {
+      "turn": 13,
+      "event": "BATTLE",
+      "attacker": 34,
+      "defender": 91,
+      "blocked": true
+    },
+    {
+      "turn": 13,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 91
+    },
+    {
+      "turn": 13,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 91
+    },
+    {
+      "turn": 13,
+      "event": "ZONE",
+      "uid": 91,
+      "zone": "DROP"
+    },
+    {
+      "turn": 13,
+      "event": "ON_RETIRE",
+      "uid": 91
+    },
+    {
+      "turn": 13,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 91
+    },
+    {
+      "turn": 13,
+      "event": "ON_BATTLE_WIN",
+      "uid": 34
+    },
+    {
+      "turn": 13,
+      "event": "LIFE_REVEAL",
+      "player": 1,
+      "cards": [
+        85
+      ]
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 85,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "TARGET",
+      "action": 2,
+      "kind": "TARGET",
+      "card": 34,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 34
+    },
+    {
+      "turn": 13,
+      "event": "ZONE",
+      "uid": 34,
+      "zone": "DROP"
+    },
+    {
+      "turn": 13,
+      "event": "ON_RETIRE",
+      "uid": 34
+    },
+    {
+      "turn": 13,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 34
+    },
+    {
+      "turn": 13,
+      "event": "ZONE",
+      "uid": 85,
+      "zone": "DROP"
+    },
+    {
+      "turn": 13,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 85,
+      "trigger": "COLOR"
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 36
+    },
+    {
+      "turn": 13,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 21
+    },
+    {
+      "turn": 13,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 10
+    },
+    {
+      "turn": 13,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 38
+    },
+    {
+      "turn": 13,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "DETACH",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 13,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 24
+    },
+    {
+      "turn": 13,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 14,
+      "event": "ZONE",
+      "uid": 72,
+      "zone": "HAND"
+    },
+    {
+      "turn": 14,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 3,
+      "kind": "PLAY",
+      "card": 99,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 14,
+      "event": "ZONE",
+      "uid": 99,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 14,
+      "event": "ON_PLAY",
+      "uid": 99
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "ZONE",
+      "uid": 67,
+      "zone": "HAND"
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 63,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "ON_ATTACK",
+      "uid": 63
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 2,
+      "kind": "BLOCK",
+      "card": 21,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "ON_BLOCK",
+      "uid": 21
+    },
+    {
+      "turn": 14,
+      "event": "BATTLE",
+      "attacker": 63,
+      "defender": 21,
+      "blocked": true
+    },
+    {
+      "turn": 14,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 63
+    },
+    {
+      "turn": 14,
+      "event": "ON_BATTLE_WIN",
+      "uid": 21
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 97,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "ON_ATTACK",
+      "uid": 97
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "ON_UNBLOCKED",
+      "uid": 97
+    },
+    {
+      "turn": 14,
+      "event": "LIFE_REVEAL",
+      "player": 0,
+      "cards": [
+        20
+      ]
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 20,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "RAID",
+      "action": 1,
+      "kind": "RAID",
+      "card": 20,
+      "target": 21,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "ZONE",
+      "uid": 20,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 14,
+      "event": "RAID_OVERLAY",
+      "uid": 20,
+      "source": 21
+    },
+    {
+      "turn": 14,
+      "event": "ON_PLAY",
+      "uid": 20
+    },
+    {
+      "turn": 14,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 20,
+      "trigger": "RAID"
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 63
+    },
+    {
+      "turn": 14,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 14,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 99
+    },
+    {
+      "turn": 14,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 5,
+      "kind": "REMOVE",
+      "card": 53,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 14,
+      "event": "ZONE",
+      "uid": 53,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 14,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 19,
+      "zone": "HAND"
+    },
+    {
+      "turn": 15,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 10,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 10,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 38,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 38,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 18,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 18,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 15,
+      "event": "ON_PLAY",
+      "uid": 18
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 4,
+      "kind": "RAID",
+      "card": 27,
+      "target": 20,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 27,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 15,
+      "event": "RAID_OVERLAY",
+      "uid": 27,
+      "source": 20
+    },
+    {
+      "turn": 15,
+      "event": "ON_PLAY",
+      "uid": 27
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 43,
+      "zone": "HAND"
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 10,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ON_ATTACK",
+      "uid": 10
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ON_UNBLOCKED",
+      "uid": 10
+    },
+    {
+      "turn": 15,
+      "event": "LIFE_REVEAL",
+      "player": 1,
+      "cards": [
+        98
+      ]
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 98,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 95,
+      "zone": "HAND"
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 98,
+      "zone": "DROP"
+    },
+    {
+      "turn": 15,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 98,
+      "trigger": "DRAW"
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 38,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ON_ATTACK",
+      "uid": 38
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 3,
+      "kind": "BLOCK",
+      "card": 99,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ON_BLOCK",
+      "uid": 99
+    },
+    {
+      "turn": 15,
+      "event": "BATTLE",
+      "attacker": 38,
+      "defender": 99,
+      "blocked": true
+    },
+    {
+      "turn": 15,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 99
+    },
+    {
+      "turn": 15,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 99
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 99,
+      "zone": "DROP"
+    },
+    {
+      "turn": 15,
+      "event": "ON_RETIRE",
+      "uid": 99
+    },
+    {
+      "turn": 15,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 99
+    },
+    {
+      "turn": 15,
+      "event": "ON_BATTLE_WIN",
+      "uid": 38
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 36
+    },
+    {
+      "turn": 15,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 10
+    },
+    {
+      "turn": 15,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 38
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "DETACH",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 27
+    },
+    {
+      "turn": 15,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "DETACH",
+      "action": 1,
+      "kind": "DETACH",
+      "card": 6,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 15,
+      "event": "ZONE",
+      "uid": 6,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 15,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 24
+    },
+    {
+      "turn": 15,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 18
+    },
+    {
+      "turn": 15,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 16,
+      "event": "ZONE",
+      "uid": 58,
+      "zone": "HAND"
+    },
+    {
+      "turn": 16,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 16,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 16,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 16,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 16,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 63
+    },
+    {
+      "turn": 16,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 16,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 9,
+      "kind": "REMOVE",
+      "card": 58,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 16,
+      "event": "ZONE",
+      "uid": 58,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 16,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 5,
+      "kind": "REMOVE",
+      "card": 59,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 16,
+      "event": "ZONE",
+      "uid": 59,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 16,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 16,
+      "zone": "HAND"
+    },
+    {
+      "turn": 17,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 3,
+      "kind": "MOVE",
+      "card": 6,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 0,
+      "kind": "REMOVE",
+      "card": 36,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 36
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 36,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 17,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 36
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 6,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 24,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 0,
+      "kind": "REMOVE",
+      "card": 10,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 10
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 10,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 17,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 10
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 24,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 37,
+      "zone": "HAND"
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 19,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 3,
+      "kind": "REMOVE",
+      "card": 24,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 24
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 24,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 17,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 24
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 19,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 17,
+      "event": "ON_PLAY",
+      "uid": 19
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 16,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 0,
+      "kind": "REMOVE",
+      "card": 38,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 38
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 38,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 17,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 38
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 16,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 17,
+      "event": "ON_PLAY",
+      "uid": 16
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 27,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "ON_ATTACK",
+      "uid": 27
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 63,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "ON_BLOCK",
+      "uid": 63
+    },
+    {
+      "turn": 17,
+      "event": "BATTLE",
+      "attacker": 27,
+      "defender": 63,
+      "blocked": true
+    },
+    {
+      "turn": 17,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 63
+    },
+    {
+      "turn": 17,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 63
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 63,
+      "zone": "DROP"
+    },
+    {
+      "turn": 17,
+      "event": "ON_RETIRE",
+      "uid": 63
+    },
+    {
+      "turn": 17,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 63
+    },
+    {
+      "turn": 17,
+      "event": "ON_BATTLE_WIN",
+      "uid": 27
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "DETACH",
+      "action": 3,
+      "kind": "DETACH",
+      "card": 20,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 17,
+      "event": "ZONE",
+      "uid": 20,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 17,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 27
+    },
+    {
+      "turn": 17,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 6
+    },
+    {
+      "turn": 17,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 19
+    },
+    {
+      "turn": 17,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 16
+    },
+    {
+      "turn": 17,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 18
+    },
+    {
+      "turn": 17,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 18,
+      "event": "ZONE",
+      "uid": 77,
+      "zone": "HAND"
+    },
+    {
+      "turn": 18,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 18,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 18,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 18,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 97,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 18,
+      "event": "ON_ATTACK",
+      "uid": 97
+    },
+    {
+      "turn": 18,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 3,
+      "kind": "BLOCK",
+      "card": 19,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 18,
+      "event": "ON_BLOCK",
+      "uid": 19
+    },
+    {
+      "turn": 18,
+      "event": "BATTLE",
+      "attacker": 97,
+      "defender": 19,
+      "blocked": true
+    },
+    {
+      "turn": 18,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 97
+    },
+    {
+      "turn": 18,
+      "event": "ON_BATTLE_WIN",
+      "uid": 19
+    },
+    {
+      "turn": 18,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 18,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 18,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 4,
+      "kind": "REMOVE",
+      "card": 82,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 18,
+      "event": "ZONE",
+      "uid": 82,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 18,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 19,
+      "event": "ZONE",
+      "uid": 35,
+      "zone": "HAND"
+    },
+    {
+      "turn": 19,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 19,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 2,
+      "kind": "SWAP",
+      "card": 6,
+      "target": 18,
+      "zone": ""
+    },
+    {
+      "turn": 19,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 19,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 19,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 19,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "DETACH",
+      "action": 1,
+      "kind": "DETACH",
+      "card": 23,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 19,
+      "event": "ZONE",
+      "uid": 23,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 19,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 27
+    },
+    {
+      "turn": 19,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 18
+    },
+    {
+      "turn": 19,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 19
+    },
+    {
+      "turn": 19,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 16
+    },
+    {
+      "turn": 19,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 6
+    },
+    {
+      "turn": 19,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 20
+    },
+    {
+      "turn": 19,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 20,
+      "event": "ZONE",
+      "uid": 96,
+      "zone": "HAND"
+    },
+    {
+      "turn": 20,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 20,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 20,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 20,
+      "event": "ZONE",
+      "uid": 68,
+      "zone": "HAND"
+    },
+    {
+      "turn": 20,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 5,
+      "kind": "PLAY",
+      "card": 68,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 20,
+      "event": "ZONE",
+      "uid": 68,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 20,
+      "event": "ON_PLAY",
+      "uid": 68
+    },
+    {
+      "turn": 20,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 6,
+      "kind": "PLAY",
+      "card": 95,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 20,
+      "event": "ZONE",
+      "uid": 95,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 20,
+      "event": "ON_PLAY",
+      "uid": 95
+    },
+    {
+      "turn": 20,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 20,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 20,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 20,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 95
+    },
+    {
+      "turn": 20,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 68
+    },
+    {
+      "turn": 20,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 21,
+      "event": "ZONE",
+      "uid": 28,
+      "zone": "HAND"
+    },
+    {
+      "turn": 21,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 5,
+      "kind": "SWAP",
+      "card": 6,
+      "target": 16,
+      "zone": ""
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 20,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 1,
+      "kind": "REMOVE",
+      "card": 18,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 21,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 18
+    },
+    {
+      "turn": 21,
+      "event": "ZONE",
+      "uid": 18,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 21,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 18
+    },
+    {
+      "turn": 21,
+      "event": "ZONE",
+      "uid": 20,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 9,
+      "kind": "PLAY",
+      "card": 28,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 0,
+      "kind": "REMOVE",
+      "card": 27,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 21,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 27
+    },
+    {
+      "turn": 21,
+      "event": "ZONE",
+      "uid": 21,
+      "zone": "DROP"
+    },
+    {
+      "turn": 21,
+      "event": "ZONE",
+      "uid": 27,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 21,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 27
+    },
+    {
+      "turn": 21,
+      "event": "ZONE",
+      "uid": 28,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 21,
+      "event": "ON_PLAY",
+      "uid": 28
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 43,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 21,
+      "event": "ZONE",
+      "uid": 43,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 21,
+      "event": "ON_PLAY",
+      "uid": 43
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 21,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 21,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 19
+    },
+    {
+      "turn": 21,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 6
+    },
+    {
+      "turn": 21,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 20
+    },
+    {
+      "turn": 21,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 28
+    },
+    {
+      "turn": 21,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 16
+    },
+    {
+      "turn": 21,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 23
+    },
+    {
+      "turn": 21,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 43
+    },
+    {
+      "turn": 21,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 22,
+      "event": "ZONE",
+      "uid": 83,
+      "zone": "HAND"
+    },
+    {
+      "turn": 22,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ZONE",
+      "uid": 66,
+      "zone": "HAND"
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 95,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ON_ATTACK",
+      "uid": 95
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 3,
+      "kind": "BLOCK",
+      "card": 20,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ON_BLOCK",
+      "uid": 20
+    },
+    {
+      "turn": 22,
+      "event": "BATTLE",
+      "attacker": 95,
+      "defender": 20,
+      "blocked": true
+    },
+    {
+      "turn": 22,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 95
+    },
+    {
+      "turn": 22,
+      "event": "ON_BATTLE_WIN",
+      "uid": 20
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 97,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ON_ATTACK",
+      "uid": 97
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ON_UNBLOCKED",
+      "uid": 97
+    },
+    {
+      "turn": 22,
+      "event": "LIFE_REVEAL",
+      "player": 0,
+      "cards": [
+        26
+      ]
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 26,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "RAID",
+      "action": 0,
+      "kind": "HAND",
+      "card": 26,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ZONE",
+      "uid": 26,
+      "zone": "HAND"
+    },
+    {
+      "turn": 22,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 26,
+      "trigger": "RAID"
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 22,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 95
+    },
+    {
+      "turn": 22,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 68
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 6,
+      "kind": "REMOVE",
+      "card": 77,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ZONE",
+      "uid": 77,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 22,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 1,
+      "kind": "REMOVE",
+      "card": 88,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 22,
+      "event": "ZONE",
+      "uid": 88,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 22,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 0,
+      "zone": "HAND"
+    },
+    {
+      "turn": 23,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 6,
+      "kind": "MOVE",
+      "card": 23,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 1,
+      "kind": "REMOVE",
+      "card": 6,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 6
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 6,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 23,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 6
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 23,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 16,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 1,
+      "kind": "REMOVE",
+      "card": 20,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 20
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 20,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 23,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 20
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 16,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 43,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 2,
+      "kind": "REMOVE",
+      "card": 23,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 23
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 23,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 23,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 23
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 43,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 0,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 0,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 23,
+      "event": "ON_PLAY",
+      "uid": 0
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 19,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ON_ATTACK",
+      "uid": 19
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ON_UNBLOCKED",
+      "uid": 19
+    },
+    {
+      "turn": 23,
+      "event": "LIFE_REVEAL",
+      "player": 1,
+      "cards": [
+        62
+      ]
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 62,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 78,
+      "zone": "HAND"
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 62,
+      "zone": "DROP"
+    },
+    {
+      "turn": 23,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 62,
+      "trigger": "DRAW"
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 16,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ON_ATTACK",
+      "uid": 16
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 2,
+      "kind": "BLOCK",
+      "card": 95,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ON_BLOCK",
+      "uid": 95
+    },
+    {
+      "turn": 23,
+      "event": "BATTLE",
+      "attacker": 16,
+      "defender": 95,
+      "blocked": true
+    },
+    {
+      "turn": 23,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 95
+    },
+    {
+      "turn": 23,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 95
+    },
+    {
+      "turn": 23,
+      "event": "ZONE",
+      "uid": 95,
+      "zone": "DROP"
+    },
+    {
+      "turn": 23,
+      "event": "ON_RETIRE",
+      "uid": 95
+    },
+    {
+      "turn": 23,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 95
+    },
+    {
+      "turn": 23,
+      "event": "ON_BATTLE_WIN",
+      "uid": 16
+    },
+    {
+      "turn": 23,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 23,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 19
+    },
+    {
+      "turn": 23,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 28
+    },
+    {
+      "turn": 23,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 16
+    },
+    {
+      "turn": 23,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 43
+    },
+    {
+      "turn": 23,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 0
+    },
+    {
+      "turn": 23,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 24,
+      "event": "ZONE",
+      "uid": 86,
+      "zone": "HAND"
+    },
+    {
+      "turn": 24,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 6,
+      "kind": "PLAY",
+      "card": 83,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 24,
+      "event": "ZONE",
+      "uid": 83,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 24,
+      "event": "ON_PLAY",
+      "uid": 83
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 13,
+      "kind": "PLAY",
+      "card": 96,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 24,
+      "event": "ZONE",
+      "uid": 96,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 24,
+      "event": "ON_PLAY",
+      "uid": 96
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 2,
+      "kind": "PLAY",
+      "card": 57,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 24,
+      "event": "ZONE",
+      "uid": 57,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 24,
+      "event": "ON_PLAY",
+      "uid": 57
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 97,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 24,
+      "event": "ON_ATTACK",
+      "uid": 97
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 24,
+      "event": "ON_UNBLOCKED",
+      "uid": 97
+    },
+    {
+      "turn": 24,
+      "event": "LIFE_REVEAL",
+      "player": 0,
+      "cards": [
+        1
+      ]
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 1,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 24,
+      "event": "ZONE",
+      "uid": 8,
+      "zone": "HAND"
+    },
+    {
+      "turn": 24,
+      "event": "ZONE",
+      "uid": 1,
+      "zone": "DROP"
+    },
+    {
+      "turn": 24,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 1,
+      "trigger": "DRAW"
+    },
+    {
+      "turn": 24,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 24,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 97
+    },
+    {
+      "turn": 24,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 68
+    },
+    {
+      "turn": 24,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 83
+    },
+    {
+      "turn": 24,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 96
+    },
+    {
+      "turn": 24,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 57
+    },
+    {
+      "turn": 24,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 25,
+      "event": "ZONE",
+      "uid": 46,
+      "zone": "HAND"
+    },
+    {
+      "turn": 25,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 7,
+      "kind": "PLAY",
+      "card": 46,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "SPACE",
+      "action": 3,
+      "kind": "REMOVE",
+      "card": 43,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 43
+    },
+    {
+      "turn": 25,
+      "event": "ZONE",
+      "uid": 43,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 25,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 43
+    },
+    {
+      "turn": 25,
+      "event": "ZONE",
+      "uid": 46,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 25,
+      "event": "ON_PLAY",
+      "uid": 46
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ZONE",
+      "uid": 48,
+      "zone": "HAND"
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 19,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ON_ATTACK",
+      "uid": 19
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 97,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ON_BLOCK",
+      "uid": 97
+    },
+    {
+      "turn": 25,
+      "event": "BATTLE",
+      "attacker": 19,
+      "defender": 97,
+      "blocked": true
+    },
+    {
+      "turn": 25,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 97
+    },
+    {
+      "turn": 25,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 97
+    },
+    {
+      "turn": 25,
+      "event": "ZONE",
+      "uid": 97,
+      "zone": "DROP"
+    },
+    {
+      "turn": 25,
+      "event": "ON_RETIRE",
+      "uid": 97
+    },
+    {
+      "turn": 25,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 97
+    },
+    {
+      "turn": 25,
+      "event": "ON_BATTLE_WIN",
+      "uid": 19
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 16,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ON_ATTACK",
+      "uid": 16
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ON_UNBLOCKED",
+      "uid": 16
+    },
+    {
+      "turn": 25,
+      "event": "LIFE_REVEAL",
+      "player": 1,
+      "cards": [
+        92
+      ]
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 92,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ACTIVE",
+      "action": 3,
+      "kind": "ACTIVE",
+      "card": 96,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ZONE",
+      "uid": 92,
+      "zone": "DROP"
+    },
+    {
+      "turn": 25,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 92,
+      "trigger": "ACTIVE"
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 28,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ON_ATTACK",
+      "uid": 28
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ON_UNBLOCKED",
+      "uid": 28
+    },
+    {
+      "turn": 25,
+      "event": "LIFE_REVEAL",
+      "player": 1,
+      "cards": [
+        73
+      ]
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 73,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "RAID",
+      "action": 1,
+      "kind": "RAID",
+      "card": 73,
+      "target": 96,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ZONE",
+      "uid": 73,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 25,
+      "event": "RAID_OVERLAY",
+      "uid": 73,
+      "source": 96
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "RAID_MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 73,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 25,
+      "event": "ZONE",
+      "uid": 73,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 25,
+      "event": "ON_PLAY",
+      "uid": 73
+    },
+    {
+      "turn": 25,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 73,
+      "trigger": "RAID"
+    },
+    {
+      "turn": 25,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 25,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 19
+    },
+    {
+      "turn": 25,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 28
+    },
+    {
+      "turn": 25,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 16
+    },
+    {
+      "turn": 25,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 46
+    },
+    {
+      "turn": 25,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 0
+    },
+    {
+      "turn": 25,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 26,
+      "event": "ZONE",
+      "uid": 87,
+      "zone": "HAND"
+    },
+    {
+      "turn": 26,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 26,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 2,
+      "kind": "MOVE",
+      "card": 83,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 26,
+      "event": "ZONE",
+      "uid": 83,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 26,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 2,
+      "kind": "MOVE",
+      "card": 57,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 26,
+      "event": "ZONE",
+      "uid": 57,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 26,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 26,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 26,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 26,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "DETACH",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 26,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 73
+    },
+    {
+      "turn": 26,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 83
+    },
+    {
+      "turn": 26,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 57
+    },
+    {
+      "turn": 26,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 68
+    },
+    {
+      "turn": 26,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 27,
+      "event": "ZONE",
+      "uid": 17,
+      "zone": "HAND"
+    },
+    {
+      "turn": 27,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 27,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 27,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 4,
+      "kind": "PLAY",
+      "card": 8,
+      "target": null,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 27,
+      "event": "ZONE",
+      "uid": 8,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 27,
+      "event": "ON_PLAY",
+      "uid": 8
+    },
+    {
+      "turn": 27,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 9,
+      "kind": "RAID",
+      "card": 26,
+      "target": 8,
+      "zone": ""
+    },
+    {
+      "turn": 27,
+      "event": "ZONE",
+      "uid": 26,
+      "zone": "ENERGY"
+    },
+    {
+      "turn": 27,
+      "event": "RAID_OVERLAY",
+      "uid": 26,
+      "source": 8
+    },
+    {
+      "turn": 27,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "RAID_MOVE",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 27,
+      "event": "ON_PLAY",
+      "uid": 26
+    },
+    {
+      "turn": 27,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 27,
+      "event": "ZONE",
+      "uid": 32,
+      "zone": "HAND"
+    },
+    {
+      "turn": 27,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 27,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 27,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 19
+    },
+    {
+      "turn": 27,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 28
+    },
+    {
+      "turn": 27,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 16
+    },
+    {
+      "turn": 27,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 46
+    },
+    {
+      "turn": 27,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 0
+    },
+    {
+      "turn": 27,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "DETACH",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 27,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 26
+    },
+    {
+      "turn": 27,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 28,
+      "event": "ZONE",
+      "uid": 90,
+      "zone": "HAND"
+    },
+    {
+      "turn": 28,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 68,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 28,
+      "event": "ZONE",
+      "uid": 68,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ZONE",
+      "uid": 56,
+      "zone": "HAND"
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 73,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ON_ATTACK",
+      "uid": 73
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 2,
+      "kind": "BLOCK",
+      "card": 28,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ON_BLOCK",
+      "uid": 28
+    },
+    {
+      "turn": 28,
+      "event": "BATTLE",
+      "attacker": 73,
+      "defender": 28,
+      "blocked": true
+    },
+    {
+      "turn": 28,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 28
+    },
+    {
+      "turn": 28,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 28
+    },
+    {
+      "turn": 28,
+      "event": "ZONE",
+      "uid": 28,
+      "zone": "DROP"
+    },
+    {
+      "turn": 28,
+      "event": "ON_RETIRE",
+      "uid": 28
+    },
+    {
+      "turn": 28,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 28
+    },
+    {
+      "turn": 28,
+      "event": "ON_BATTLE_WIN",
+      "uid": 73
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 57,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ON_ATTACK",
+      "uid": 57
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 2,
+      "kind": "BLOCK",
+      "card": 16,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ON_BLOCK",
+      "uid": 16
+    },
+    {
+      "turn": 28,
+      "event": "BATTLE",
+      "attacker": 57,
+      "defender": 16,
+      "blocked": true
+    },
+    {
+      "turn": 28,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 16
+    },
+    {
+      "turn": 28,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 16
+    },
+    {
+      "turn": 28,
+      "event": "ZONE",
+      "uid": 16,
+      "zone": "DROP"
+    },
+    {
+      "turn": 28,
+      "event": "ON_RETIRE",
+      "uid": 16
+    },
+    {
+      "turn": 28,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 16
+    },
+    {
+      "turn": 28,
+      "event": "ON_BATTLE_WIN",
+      "uid": 57
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 83,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ON_ATTACK",
+      "uid": 83
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ON_UNBLOCKED",
+      "uid": 83
+    },
+    {
+      "turn": 28,
+      "event": "LIFE_REVEAL",
+      "player": 0,
+      "cards": [
+        11
+      ]
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 11,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ZONE",
+      "uid": 11,
+      "zone": "DROP"
+    },
+    {
+      "turn": 28,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 11,
+      "trigger": "NONE"
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "DETACH",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 73
+    },
+    {
+      "turn": 28,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 83
+    },
+    {
+      "turn": 28,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 57
+    },
+    {
+      "turn": 28,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 68
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 5,
+      "kind": "REMOVE",
+      "card": 78,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ZONE",
+      "uid": 78,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 28,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 6,
+      "kind": "REMOVE",
+      "card": 87,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 28,
+      "event": "ZONE",
+      "uid": 87,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 28,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 29,
+      "event": "ZONE",
+      "uid": 25,
+      "zone": "HAND"
+    },
+    {
+      "turn": 29,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 2,
+      "kind": "MOVE",
+      "card": 26,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 29,
+      "event": "ZONE",
+      "uid": 26,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 1,
+      "kind": "MOVE",
+      "card": 0,
+      "target": null,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 29,
+      "event": "ZONE",
+      "uid": 0,
+      "zone": "FRONT"
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 3,
+      "kind": "ATTACK",
+      "card": 26,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_ATTACK",
+      "uid": 26
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 73,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_BLOCK",
+      "uid": 73
+    },
+    {
+      "turn": 29,
+      "event": "BATTLE",
+      "attacker": 26,
+      "defender": 73,
+      "blocked": true
+    },
+    {
+      "turn": 29,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 73
+    },
+    {
+      "turn": 29,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 73
+    },
+    {
+      "turn": 29,
+      "event": "ZONE",
+      "uid": 96,
+      "zone": "DROP"
+    },
+    {
+      "turn": 29,
+      "event": "ZONE",
+      "uid": 73,
+      "zone": "DROP"
+    },
+    {
+      "turn": 29,
+      "event": "ON_RETIRE",
+      "uid": 73
+    },
+    {
+      "turn": 29,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 73
+    },
+    {
+      "turn": 29,
+      "event": "ON_BATTLE_WIN",
+      "uid": 26
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 19,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_ATTACK",
+      "uid": 19
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 83,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_BLOCK",
+      "uid": 83
+    },
+    {
+      "turn": 29,
+      "event": "BATTLE",
+      "attacker": 19,
+      "defender": 83,
+      "blocked": true
+    },
+    {
+      "turn": 29,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 83
+    },
+    {
+      "turn": 29,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 83
+    },
+    {
+      "turn": 29,
+      "event": "ZONE",
+      "uid": 83,
+      "zone": "DROP"
+    },
+    {
+      "turn": 29,
+      "event": "ON_RETIRE",
+      "uid": 83
+    },
+    {
+      "turn": 29,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 83
+    },
+    {
+      "turn": 29,
+      "event": "ON_BATTLE_WIN",
+      "uid": 19
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 46,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_ATTACK",
+      "uid": 46
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_UNBLOCKED",
+      "uid": 46
+    },
+    {
+      "turn": 29,
+      "event": "LIFE_REVEAL",
+      "player": 1,
+      "cards": [
+        75
+      ]
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 75,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "RAID",
+      "action": 0,
+      "kind": "HAND",
+      "card": 75,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ZONE",
+      "uid": 75,
+      "zone": "HAND"
+    },
+    {
+      "turn": 29,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 75,
+      "trigger": "RAID"
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 0,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_ATTACK",
+      "uid": 0
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 1,
+      "kind": "BLOCK",
+      "card": 57,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_BLOCK",
+      "uid": 57
+    },
+    {
+      "turn": 29,
+      "event": "BATTLE",
+      "attacker": 0,
+      "defender": 57,
+      "blocked": true
+    },
+    {
+      "turn": 29,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 0
+    },
+    {
+      "turn": 29,
+      "event": "ON_BATTLE_WIN",
+      "uid": 57
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 19
+    },
+    {
+      "turn": 29,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 46
+    },
+    {
+      "turn": 29,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "DETACH",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 29,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 26
+    },
+    {
+      "turn": 29,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 0
+    },
+    {
+      "turn": 29,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 30,
+      "event": "ZONE",
+      "uid": 64,
+      "zone": "HAND"
+    },
+    {
+      "turn": 30,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ZONE",
+      "uid": 54,
+      "zone": "HAND"
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 68,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ON_ATTACK",
+      "uid": 68
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ON_UNBLOCKED",
+      "uid": 68
+    },
+    {
+      "turn": 30,
+      "event": "LIFE_REVEAL",
+      "player": 0,
+      "cards": [
+        47
+      ]
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 47,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ZONE",
+      "uid": 47,
+      "zone": "DROP"
+    },
+    {
+      "turn": 30,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 47,
+      "trigger": "NONE"
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 57,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ON_ATTACK",
+      "uid": 57
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 3,
+      "kind": "BLOCK",
+      "card": 26,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ON_BLOCK",
+      "uid": 26
+    },
+    {
+      "turn": 30,
+      "event": "BATTLE",
+      "attacker": 57,
+      "defender": 26,
+      "blocked": true
+    },
+    {
+      "turn": 30,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 26
+    },
+    {
+      "turn": 30,
+      "event": "ON_BEFORE_LEAVE_FIELD",
+      "uid": 26
+    },
+    {
+      "turn": 30,
+      "event": "ZONE",
+      "uid": 8,
+      "zone": "DROP"
+    },
+    {
+      "turn": 30,
+      "event": "ZONE",
+      "uid": 26,
+      "zone": "DROP"
+    },
+    {
+      "turn": 30,
+      "event": "ON_RETIRE",
+      "uid": 26
+    },
+    {
+      "turn": 30,
+      "event": "ON_LEAVE_FIELD",
+      "uid": 26
+    },
+    {
+      "turn": 30,
+      "event": "ON_BATTLE_WIN",
+      "uid": 57
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 57
+    },
+    {
+      "turn": 30,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 68
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 9,
+      "kind": "REMOVE",
+      "card": 64,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ZONE",
+      "uid": 64,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 7,
+      "kind": "REMOVE",
+      "card": 56,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ZONE",
+      "uid": 56,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 30,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "END",
+      "action": 4,
+      "kind": "REMOVE",
+      "card": 66,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 30,
+      "event": "ZONE",
+      "uid": 66,
+      "zone": "REMOVE"
+    },
+    {
+      "turn": 30,
+      "event": "END_ACTIVE_RESET",
+      "player": 1
+    },
+    {
+      "turn": 31,
+      "event": "ZONE",
+      "uid": 44,
+      "zone": "HAND"
+    },
+    {
+      "turn": 31,
+      "event": "START_TURN",
+      "player": 0,
+      "ap": 3
+    },
+    {
+      "turn": 31,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 31,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 1,
+      "kind": "DRAW",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 31,
+      "event": "ZONE",
+      "uid": 9,
+      "zone": "HAND"
+    },
+    {
+      "turn": 31,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 31,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 2,
+      "kind": "ATTACK",
+      "card": 46,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 31,
+      "event": "ON_ATTACK",
+      "uid": 46
+    },
+    {
+      "turn": 31,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "BLOCK",
+      "action": 2,
+      "kind": "BLOCK",
+      "card": 68,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 31,
+      "event": "ON_BLOCK",
+      "uid": 68
+    },
+    {
+      "turn": 31,
+      "event": "BATTLE",
+      "attacker": 46,
+      "defender": 68,
+      "blocked": true
+    },
+    {
+      "turn": 31,
+      "event": "ON_BATTLE_LOSE",
+      "uid": 46
+    },
+    {
+      "turn": 31,
+      "event": "ON_BATTLE_WIN",
+      "uid": 68
+    },
+    {
+      "turn": 31,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "ATTACK",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 31,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 19
+    },
+    {
+      "turn": 31,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 46
+    },
+    {
+      "turn": 31,
+      "event": "ON_END_ATTACK_PHASE",
+      "uid": 0
+    },
+    {
+      "turn": 31,
+      "event": "END_ACTIVE_RESET",
+      "player": 0
+    },
+    {
+      "turn": 32,
+      "event": "ZONE",
+      "uid": 94,
+      "zone": "HAND"
+    },
+    {
+      "turn": 32,
+      "event": "START_TURN",
+      "player": 1,
+      "ap": 3
+    },
+    {
+      "turn": 32,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MOVE",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 32,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "MAIN",
+      "action": 0,
+      "kind": "NEXT",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 32,
+      "event": "DECISION",
+      "player": 1,
+      "phase": "ATTACK",
+      "action": 1,
+      "kind": "ATTACK",
+      "card": 57,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 32,
+      "event": "ON_ATTACK",
+      "uid": 57
+    },
+    {
+      "turn": 32,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "BLOCK",
+      "action": 0,
+      "kind": "PASS",
+      "card": null,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 32,
+      "event": "ON_UNBLOCKED",
+      "uid": 57
+    },
+    {
+      "turn": 32,
+      "event": "LIFE_REVEAL",
+      "player": 0,
+      "cards": [
+        22
+      ]
+    },
+    {
+      "turn": 32,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "TRIGGER",
+      "action": 0,
+      "kind": "TRIGGER",
+      "card": 22,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 32,
+      "event": "DECISION",
+      "player": 0,
+      "phase": "RAID",
+      "action": 0,
+      "kind": "HAND",
+      "card": 22,
+      "target": null,
+      "zone": ""
+    },
+    {
+      "turn": 32,
+      "event": "ZONE",
+      "uid": 22,
+      "zone": "HAND"
+    },
+    {
+      "turn": 32,
+      "event": "TRIGGER_RESOLVED",
+      "uid": 22,
+      "trigger": "RAID"
+    }
+  ]
+}

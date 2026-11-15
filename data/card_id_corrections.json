@@ -1,0 +1,134 @@
+{
+  "bleach": {
+    "UA08BT/BLC-1-044": {
+      "name": "朽木 露琪亞",
+      "canonical_name": "朽木 露琪亞",
+      "official_id": "EX07BT/BLC-2-054",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=EX07BT%2FBLC-2-054"
+    },
+    "UA08BT/BLC-1-040_ICHIGO": {
+      "name": "黑崎 一護",
+      "canonical_name": "黑崎 一護",
+      "official_id": "UA08BT/BLC-1-039",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA08BT%2FBLC-1-039"
+    },
+    "UA08BT/BLC-1-042": {
+      "name": "黑崎 一護",
+      "canonical_name": "黑崎 一護",
+      "official_id": "UA08BT/BLC-1-040",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA08BT%2FBLC-1-040"
+    },
+    "UA08BT/BLC-1-047": {
+      "name": "朽木 露琪亞",
+      "canonical_name": "朽木 露琪亞",
+      "official_id": "UA08BT/BLC-1-053",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA08BT%2FBLC-1-053"
+    },
+    "UA08BT/BLC-1-068": {
+      "name": "卍解",
+      "canonical_name": "卍解",
+      "official_id": "UA08BT/BLC-1-066",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA08BT%2FBLC-1-066"
+    },
+    "UA08BT/BLC-1-045": {
+      "name": "黑崎 一護",
+      "canonical_name": "黑崎 一護",
+      "official_id": "UA08ST/BLC-1-103",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA08ST%2FBLC-1-103"
+    },
+    "EX07BT/BLC-2-002": {
+      "name": "黑崎 一護",
+      "canonical_name": "黑崎 一護",
+      "official_id": "UA08ST/BLC-1-104",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA08ST%2FBLC-1-104"
+    },
+    "UA08BT/BLC-1-046": {
+      "name": "黑崎 一護",
+      "canonical_name": "黑崎 一護",
+      "official_id": "UA01DC/BLC-4-082",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/en/cardlist/detail_iframe.php?card_no=UA01DC%2FBLC-4-082"
+    },
+    "UA08BT/BLC-1-040": {
+      "name": "石田 雨龍",
+      "canonical_name": "石田 雨龍",
+      "official_id": "UA08BT/BLC-1-034",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA08BT%2FBLC-1-034"
+    },
+    "UA08BT/BLC-1-066": {
+      "name": "月牙天衝",
+      "canonical_name": "月牙天衝",
+      "official_id": "UA08BT/BLC-1-064",
+      "count": 4,
+      "color": "PURPLE",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA08BT%2FBLC-1-064"
+    }
+  },
+  "ttgl": {
+    "UA56BT/TTG-1-043": {
+      "name": "卡米拿",
+      "canonical_name": "卡米拿",
+      "official_id": "UA56BT/TTG-1-042",
+      "count": 4,
+      "color": "RED",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA56BT%2FTTG-1-042"
+    },
+    "UA56BT/TTG-1-056": {
+      "name": "施蒙",
+      "canonical_name": "施蒙",
+      "official_id": "UA56BT/TTG-1-052",
+      "count": 2,
+      "color": "RED",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA56BT%2FTTG-1-052"
+    },
+    "UA56BT/TTG-1-052": {
+      "name": "施蒙",
+      "canonical_name": "施蒙",
+      "official_id": "UA56BT/TTG-1-053",
+      "count": 4,
+      "color": "RED",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA56BT%2FTTG-1-053"
+    },
+    "UA56BT/TTG-1-071": {
+      "name": "紅蓮",
+      "canonical_name": "紅蓮",
+      "official_id": "UA56BT/TTG-1-072",
+      "count": 4,
+      "color": "RED",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA56BT%2FTTG-1-072"
+    },
+    "UA56BT/TTG-1-060": {
+      "name": "螺巖",
+      "canonical_name": "螺巖",
+      "official_id": "UA56BT/TTG-1-076",
+      "count": 4,
+      "color": "RED",
+      "source": "https://www.unionarena-tcg.com/en/cardlist/detail_iframe.php?card_no=UA56BT%2FTTG-1-076"
+    },
+    "UA56BT/TTG-1-077": {
+      "name": "巨鑽爆擊",
+      "canonical_name": "巨鑽爆擊",
+      "official_id": "UA56BT/TTG-1-081",
+      "count": 4,
+      "color": "RED",
+      "source": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UA56BT%2FTTG-1-081"
+    }
+  }
+}

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Union Arena AI 對戰重播器</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --p0: #38bdf8;
+      --p1: #f43f5e;
+      --active: #22c55e;
+      --rest: #f59e0b;
+      --raid: #a855f7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+    header {
+      background: #020617;
+      padding: 10px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .title { font-size: 1.1rem; font-weight: bold; letter-spacing: 0.5px; }
+    .controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    button, select, input[type="file"] {
+      background: var(--panel);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    button:hover:not(:disabled) { background: #334155; }
+    button:disabled { opacity: 0.4; cursor: not-allowed; }
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      flex: 1;
+      overflow: hidden;
+    }
+    .board {
+      padding: 14px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      overflow-y: auto;
+    }
+    .player-zone {
+      background: rgba(30, 41, 59, 0.65);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .player-zone.p0 { border-left: 4px solid var(--p0); }
+    .player-zone.p1 { border-left: 4px solid var(--p1); }
+    .player-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+    .stats { display: flex; gap: 14px; color: var(--muted); }
+    .stats span b { color: var(--text); }
+    .line-row {
+      display: grid;
+      grid-template-columns: 76px repeat(4, 1fr);
+      gap: 8px;
+      align-items: center;
+    }
+    .line-label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-weight: bold;
+      text-align: right;
+      padding-right: 6px;
+    }
+    .slot {
+      min-height: 64px;
+      background: #0f172a;
+      border: 1px dashed #334155;
+      border-radius: 8px;
+      padding: 6px 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 0.8rem;
+      position: relative;
+      transition: transform 0.15s;
+    }
+    .slot.filled { border-style: solid; background: #1e293b; }
+    .card-art { display:block; width:100%; height:140px; object-fit:contain; margin-bottom:5px; cursor:zoom-in; }
+    .hand-card { width:92px; }
+    .hand-card .card-art { height:95px; }
+    .art-missing { font-size:0.7rem; color:var(--muted); }
+    dialog { margin:auto; padding:16px; border:1px solid #475569; border-radius:12px; background:#0f172a; color:white; max-width:95vw; }
+    dialog::backdrop { background:rgba(0,0,0,.8); }
+    #previewImage { display:block; max-height:75vh; max-width:85vw; margin:10px auto; }
+    .slot.active { border-color: var(--active); }
+    .slot.rest {
+      border-color: var(--rest);
+      background: rgba(245, 158, 11, 0.12);
+    }
+    .card-name { font-weight: bold; font-size: 0.85rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-meta { font-size: 0.72rem; color: var(--muted); margin-top: 3px; display: flex; justify-content: space-between; }
+    .badge {
+      display: inline-block;
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-size: 0.68rem;
+      font-weight: bold;
+    }
+    .badge-active { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
+    .badge-rest { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
+    .badge-raid { background: rgba(168, 85, 247, 0.25); color: #d8b4fe; margin-left: 4px; }
+    .hand-row {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      align-items: center;
+      min-height: 32px;
+      padding-top: 4px;
+      border-top: 1px solid rgba(51, 65, 85, 0.6);
+    }
+    .hand-card {
+      background: #0f172a;
+      border: 1px solid #475569;
+      border-radius: 5px;
+      padding: 3px 7px;
+      font-size: 0.75rem;
+    }
+    .banner {
+      text-align: center;
+      padding: 6px;
+      background: #020617;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.92rem;
+      color: #e2e8f0;
+    }
+    .sidebar {
+      background: #020617;
+      border-left: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .sidebar-header {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    .log-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 0.8rem;
+    }
+    .log-item {
+      padding: 6px 8px;
+      border-radius: 5px;
+      background: #0f172a;
+      color: var(--muted);
+      cursor: pointer;
+      border-left: 3px solid transparent;
+    }
+    .log-item.current {
+      background: #1e293b;
+      color: var(--text);
+      border-left-color: var(--p0);
+      font-weight: 500;
+    }
+    .log-item.p1-ev.current { border-left-color: var(--p1); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title">⚔️ Union Arena AI 對戰重播器</div>
+    <div class="controls">
+      <input type="file" id="fileInput" accept=".json" />
+      <button id="btnSample">載入最新測試重播</button>
+      <select id="gameSelect" disabled aria-label="選擇對戰場次"><option>尚未載入</option></select>
+      <button id="btnFirst" disabled>⏮ 開局</button>
+      <button id="btnPrev" disabled>◀ 上一步</button>
+      <button id="btnPlay" disabled>▶ 自動播放</button>
+      <button id="btnNext" disabled>下一步 ▶</button>
+      <button id="btnLast" disabled>終局 ⏭</button>
+      <select id="speedSelect">
+        <option value="800">1x 速度</option>
+        <option value="350" selected>2x 速度</option>
+        <option value="120">5x 速度</option>
+      </select>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="board">
+      <!-- Player 1 (對手 / 上方) -->
+      <div class="player-zone p1" id="zoneP1">
+        <div class="player-header">
+          <strong style="color: var(--p1)">Player 1 (後攻)</strong>
+          <div class="stats">
+            <span>❤️ 生命: <b id="p1Life">0</b></span>
+            <span>⚡ AP: <b id="p1Ap">0</b></span>
+            <span>🃏 牌庫: <b id="p1Deck">50</b></span>
+            <span>🪦 場外: <b id="p1Drop">0</b></span>
+            <span>🚫 移除: <b id="p1Remove">0</b></span>
+          </div>
+        </div>
+        <div class="hand-row" id="p1Hand"><span class="line-label">手牌</span></div>
+        <div class="line-row" id="p1Energy"><div class="line-label">能源線</div></div>
+        <div class="line-row" id="p1Front"><div class="line-label">前線</div></div>
+      </div>
+
+      <!-- 中央戰況提示列 -->
+      <div class="banner" id="statusBanner">請選擇 replays/bleach_vs_ttgl.json；點擊卡圖可放大查看。</div>
+
+      <!-- Player 0 (我方 / 下方) -->
+      <div class="player-zone p0" id="zoneP0">
+        <div class="player-header">
+          <strong style="color: var(--p0)">Player 0 (先攻)</strong>
+          <div class="stats">
+            <span>❤️ 生命: <b id="p0Life">0</b></span>
+            <span>⚡ AP: <b id="p0Ap">0</b></span>
+            <span>🃏 牌庫: <b id="p0Deck">50</b></span>
+            <span>🪦 場外: <b id="p0Drop">0</b></span>
+            <span>🚫 移除: <b id="p0Remove">0</b></span>
+          </div>
+        </div>
+        <div class="line-row" id="p0Front"><div class="line-label">前線</div></div>
+        <div class="line-row" id="p0Energy"><div class="line-label">能源線</div></div>
+        <div class="hand-row" id="p0Hand"><span class="line-label">手牌</span></div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-header">📜 對戰事件時間軸 (<span id="stepCounter">0 / 0</span>)</div>
+      <div class="log-list" id="logList"></div>
+    </div>
+  </div>
+
+  <dialog id="cardPreview"><button id="closePreview">關閉</button><div id="previewTitle"></div><img id="previewImage" alt="卡片大圖" /><a id="previewSource" target="_blank" rel="noopener noreferrer">官方卡片資料</a></dialog>
+  <script src="data/card_catalog.js"></script>
+  <script>
+    const catalog = window.UA_CARD_CATALOG?.cards || {};
+    const escapeHTML = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+    const cardName = id => catalog[id]?.display_name || catalog[id]?.name || id;
+    function cardArt(id) {
+      const card = catalog[id];
+      if (!card) return '<span class="art-missing">尚未下載卡圖</span>';
+      return `<img class="card-art" src="${escapeHTML(card.image)}" alt="${escapeHTML(cardName(id))}" data-card-id="${escapeHTML(id)}" loading="lazy"><span class="art-missing" hidden>卡圖讀取失敗</span>`;
+    }
+    document.addEventListener('error', event => {
+      if (event.target.matches?.('.card-art')) {
+        event.target.hidden = true;
+        event.target.style.display = 'none';
+        event.target.nextElementSibling.hidden = false;
+      }
+    }, true);
+    document.addEventListener('click', event => {
+      const id = event.target.dataset.cardId;
+      if (!id || !catalog[id]) return;
+      const card = catalog[id];
+      document.getElementById('previewTitle').textContent = `${cardName(id)} · ${id} · ${card.language || 'tc'} 卡圖`;
+      document.getElementById('previewImage').src = card.image;
+      document.getElementById('previewSource').href = card.source;
+      document.getElementById('cardPreview').showModal();
+    });
+    document.getElementById('closePreview').onclick = () => document.getElementById('cardPreview').close();
+    let replayData = null;
+    let snapshots = [];
+    let currentIdx = 0;
+    let playTimer = null;
+    let holdDelay = null;
+    let holdTimer = null;
+
+    function availableGames(data) {
+      return Array.isArray(data.games) && data.games.length ? data.games : [data];
+    }
+
+    function loadReplayCollection(data) {
+      replayData = data;
+      const games = availableGames(data);
+      const select = document.getElementById('gameSelect');
+      select.innerHTML = games.map((game, index) => {
+        const winner = game.winner_deck || data.deck_names?.[game.winner] || `Player ${game.winner}`;
+        return `<option value="${index}">第 ${index + 1} 場｜勝者：${escapeHTML(winner)}｜${escapeHTML(game.reason || '')}</option>`;
+      }).join('');
+      select.disabled = games.length < 2;
+      select.value = '0';
+      selectGame(0);
+      enableControls(true);
+    }
+
+    function selectGame(index) {
+      stopPlay();
+      const game = availableGames(replayData)[index];
+      buildSnapshots({...game, decks: replayData.decks || game.decks});
+      currentIdx = 0;
+      renderLogList();
+      renderStep(0);
+    }
+
+    document.getElementById('gameSelect').onchange = event => selectGame(Number(event.target.value));
+    document.getElementById('btnSample').onclick = async () => {
+      try {
+        const response = await fetch('replays/bleach_vs_ttgl.json');
+        if (!response.ok) throw new Error('找不到重播檔案');
+        loadReplayCollection(await response.json());
+      } catch (error) {
+        alert('請使用本機 HTTP 伺服器開啟，或用「選擇檔案」載入 JSON。' + error.message);
+      }
+    };
+
+    document.getElementById("fileInput").addEventListener("change", (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        try {
+          loadReplayCollection(JSON.parse(ev.target.result));
+        } catch (err) {
+          alert("JSON 解析失敗：" + err.message);
+        }
+      };
+      reader.readAsText(file, "utf-8");
+    });
+
+    function buildSnapshots(data) {
+      snapshots = [];
+      const cards = {};
+      // 初始化 100 張卡 (0~49 屬 P0, 50~99 屬 P1)
+      data.decks.forEach((deck, pIdx) => {
+        deck.forEach((cardId, i) => {
+          const uid = pIdx * 50 + i;
+          cards[uid] = {
+            uid,
+            owner: pIdx,
+            id: cardId,
+            zone: "DECK",
+            active: true,
+            under: []
+          };
+        });
+      });
+
+      const ap = [0, 0];
+      let turn = 0;
+      let activePlayer = 0;
+
+      const cloneState = (desc, evObj) => ({
+        turn,
+        activePlayer,
+        desc,
+        evObj,
+        ap: [...ap],
+        cards: JSON.parse(JSON.stringify(cards))
+      });
+
+      snapshots.push(cloneState("對戰初始化（雙方牌組 50 張準備完畢）", null));
+
+      for (const ev of data.events) {
+        if (ev.turn !== undefined) turn = ev.turn;
+        let desc = "";
+
+        if (ev.event === "START_TURN") {
+          activePlayer = ev.player;
+          ap[ev.player] = ev.ap;
+          Object.values(cards).forEach(c => {
+            if (c.owner === ev.player && (c.zone === "FRONT" || c.zone === "ENERGY")) c.active = true;
+          });
+          desc = `Turn ${turn}：Player ${ev.player} 回合開始（AP = ${ev.ap}）`;
+        } else if (ev.event === "ZONE") {
+          const c = cards[ev.uid];
+          if (c) {
+            // 若原本壓在某張卡底下，先移除關聯
+            Object.values(cards).forEach(parent => {
+              parent.under = parent.under.filter(u => u !== ev.uid);
+            });
+            c.zone = ev.zone;
+            if (ev.zone === "FRONT" || ev.zone === "ENERGY") c.active = false;
+            desc = `卡片 [${c.id} #${c.uid}] 移動至 ${ev.zone}`;
+          }
+        } else if (ev.event === "RAID_OVERLAY") {
+          const top = cards[ev.uid];
+          const src = cards[ev.source];
+          if (top && src) {
+            src.zone = "UNDER";
+            top.under.push(src.uid, ...src.under);
+            src.under = [];
+            top.active = true;
+            desc = `⚡ 突襲疊放！[${top.id}] 疊在 [${src.id}] 上並置為活動`;
+          }
+        } else if (ev.event === "END_ACTIVE_RESET") {
+          Object.values(cards).forEach(c => {
+            if (c.owner === ev.player && (c.zone === "FRONT" || c.zone === "ENERGY")) c.active = true;
+          });
+          desc = `Turn ${turn} 結束階段：Player ${ev.player} 場上角色全部重置為活動`;
+        } else if (ev.event === "DECISION") {
+          const cName = ev.card !== null && cards[ev.card] ? `[${cards[ev.card].id}]` : "";
+          if (ev.kind === "ATTACK" && cards[ev.card]) {
+            cards[ev.card].active = false;
+            desc = `⚔️ Player ${ev.player} 宣告攻擊：${cName}`;
+          } else if (ev.kind === "BLOCK" && cards[ev.card]) {
+            cards[ev.card].active = false;
+            desc = `🛡️ Player ${ev.player} 宣告阻擋：${cName}`;
+          } else if (ev.kind === "SWAP" && cards[ev.card] && cards[ev.target]) {
+            const z1 = cards[ev.card].zone;
+            cards[ev.card].zone = cards[ev.target].zone;
+            cards[ev.target].zone = z1;
+            desc = `🔄 Step 滑步互換：[${cards[ev.card].id}] ↔ [${cards[ev.target].id}]`;
+          } else if (ev.kind === "NEXT" || ev.kind === "PASS") {
+            continue; // 略過純過場按鍵，讓畫面更緊湊
+          } else {
+            desc = `Player ${ev.player} (${ev.phase})：${ev.kind} ${cName} ${ev.zone ? "→ " + ev.zone : ""}`;
+          }
+        } else if (ev.event === "BATTLE") {
+          desc = `💥 角色對戰：[${cards[ev.attacker]?.id}] VS [${cards[ev.defender]?.id}]`;
+        } else if (ev.event === "LIFE_REVEAL") {
+          desc = `💔 Player ${ev.player} 生命區翻開：[${ev.cards.map(id => cards[id]?.id).join(", ")}]`;
+        } else if (ev.event === "TRIGGER_RESOLVED") {
+          desc = `✨ Trigger 結算完畢：${ev.trigger}`;
+        } else {
+          continue;
+        }
+
+        snapshots.push(cloneState(desc, ev));
+      }
+
+      snapshots.push(cloneState(`🏆 對戰結束！勝者：Player ${data.winner}（原因：${data.reason}，總回合：${data.total_turns}）`, null));
+    }
+
+    function renderLogList() {
+      const list = document.getElementById("logList");
+      list.innerHTML = "";
+      snapshots.forEach((snap, idx) => {
+        const div = document.createElement("div");
+        div.className = "log-item" + (snap.activePlayer === 1 ? " p1-ev" : "");
+        div.textContent = `[T${snap.turn}] ${snap.desc}`;
+        div.onclick = () => { stopPlay(); renderStep(idx); };
+        list.appendChild(div);
+      });
+    }
+
+    function renderStep(idx) {
+      currentIdx = Math.max(0, Math.min(idx, snapshots.length - 1));
+      const snap = snapshots[currentIdx];
+      document.getElementById("statusBanner").textContent = snap.desc;
+      document.getElementById("stepCounter").textContent = `${currentIdx + 1} / ${snapshots.length}`;
+
+      [0, 1].forEach(p => {
+        const pCards = Object.values(snap.cards).filter(c => c.owner === p);
+        document.getElementById(`p${p}Life`).textContent = pCards.filter(c => c.zone === "LIFE").length;
+        document.getElementById(`p${p}Ap`).textContent = snap.ap[p];
+        document.getElementById(`p${p}Deck`).textContent = pCards.filter(c => c.zone === "DECK").length;
+        document.getElementById(`p${p}Drop`).textContent = pCards.filter(c => c.zone === "DROP").length;
+        document.getElementById(`p${p}Remove`).textContent = pCards.filter(c => c.zone === "REMOVE").length;
+
+        renderLine(`p${p}Front`, "前線", pCards.filter(c => c.zone === "FRONT"));
+        renderLine(`p${p}Energy`, "能源線", pCards.filter(c => c.zone === "ENERGY"));
+
+        const handDiv = document.getElementById(`p${p}Hand`);
+        const handCards = pCards.filter(c => c.zone === "HAND");
+        handDiv.innerHTML = `<span class="line-label">手牌 (${handCards.length})</span>` +
+          handCards.map(c => `<span class="hand-card">${cardArt(c.id)}<b>${escapeHTML(cardName(c.id))}</b><br><small>${escapeHTML(c.id)}</small></span>`).join("");
+      });
+
+      const items = document.querySelectorAll(".log-item");
+      items.forEach((el, i) => el.classList.toggle("current", i === currentIdx));
+      if (items[currentIdx]) items[currentIdx].scrollIntoView({ block: "nearest" });
+    }
+
+    function renderLine(containerId, label, cardsList) {
+      const container = document.getElementById(containerId);
+      let html = `<div class="line-label">${label}</div>`;
+      for (let i = 0; i < 4; i++) {
+        const c = cardsList[i];
+        if (c) {
+          const stateClass = c.active ? "active" : "rest";
+          const stateBadge = c.active
+            ? `<span class="badge badge-active">活動</span>`
+            : `<span class="badge badge-rest">休息</span>`;
+          const raidBadge = c.under.length > 0
+            ? `<span class="badge badge-raid">突襲+${c.under.length}</span>`
+            : "";
+          html += `
+            <div class="slot filled ${stateClass}">
+              ${cardArt(c.id)}
+              <div class="card-name" title="${escapeHTML(c.id)}">${escapeHTML(cardName(c.id))}</div>
+              <small>${escapeHTML(c.id)}</small>
+              <div class="card-meta">
+                <span>${stateBadge}${raidBadge}</span>
+                <span>#${c.uid}</span>
+              </div>
+            </div>`;
+        } else {
+          html += `<div class="slot"><span style="color:#475569;text-align:center;">空位</span></div>`;
+        }
+      }
+      container.innerHTML = html;
+    }
+
+    function enableControls(enabled) {
+      ["btnFirst", "btnPrev", "btnPlay", "btnNext", "btnLast"].forEach(id => {
+        document.getElementById(id).disabled = !enabled;
+      });
+    }
+
+    function stopPlay() {
+      if (playTimer) {
+        clearInterval(playTimer);
+        playTimer = null;
+        document.getElementById("btnPlay").textContent = "▶ 自動播放";
+      }
+    }
+
+    document.getElementById("btnFirst").onclick = () => { stopPlay(); renderStep(0); };
+    document.getElementById("btnPrev").onclick = () => { stopPlay(); renderStep(currentIdx - 1); };
+    const nextButton = document.getElementById("btnNext");
+    function advanceOne() { stopPlay(); renderStep(currentIdx + 1); }
+    function stopHolding() {
+      clearTimeout(holdDelay); clearInterval(holdTimer);
+      holdDelay = holdTimer = null;
+    }
+    nextButton.onclick = advanceOne;
+    nextButton.addEventListener('pointerdown', event => {
+      if (nextButton.disabled || event.button !== 0) return;
+      stopHolding();
+      holdDelay = setTimeout(() => {
+        advanceOne();
+        holdTimer = setInterval(() => {
+          if (currentIdx >= snapshots.length - 1) stopHolding();
+          else advanceOne();
+        }, 70);
+      }, 350);
+    });
+    ['pointerup', 'pointercancel', 'pointerleave'].forEach(name =>
+      nextButton.addEventListener(name, stopHolding));
+    document.getElementById("btnLast").onclick = () => { stopPlay(); renderStep(snapshots.length - 1); };
+    document.getElementById("btnPlay").onclick = () => {
+      if (playTimer) {
+        stopPlay();
+      } else {
+        document.getElementById("btnPlay").textContent = "⏸ 暫停";
+        const speed = Number(document.getElementById("speedSelect").value);
+        playTimer = setInterval(() => {
+          if (currentIdx >= snapshots.length - 1) stopPlay();
+          else renderStep(currentIdx + 1);
+        }, speed);
+      }
+    };
+  </script>
+</body>
+</html>
